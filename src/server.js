@@ -9,6 +9,7 @@ sequelize
         console.log('Connection has been established successfully.');
     })
     .catch(err => {
+        console.log(err)
         console.error('Failed!!! Please check your connection credentials!');
     });
 
